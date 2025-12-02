@@ -1,11 +1,4 @@
-.container {
-    display: flex;
-    justify-content: center; /* Gère l'alignement sur l'axe principal (horizontal par défaut) */
-    align-items: center;    /* Gère l'alignement sur l'axe secondaire (vertical par défaut) */
-}
-.column {
-    flex-direction: column; /* Change l'axe principal en vertical */
-}
+
 
 <nav class="menu">
 
@@ -34,7 +27,7 @@ header {
 
       max-width: 960px;
       max-width: 0 auto;
-      style="background-color:#f8f9fa">
+      style="background-color:blank">
       style="color#333"
       margin: 0;
       p {
