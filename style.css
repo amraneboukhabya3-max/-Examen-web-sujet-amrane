@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center; /* Gère l'alignement sur l'axe principal (horizontal par défaut) */
+    align-items: center;    /* Gère l'alignement sur l'axe secondaire (vertical par défaut) */
+}
+.column {
+    flex-direction: column; /* Change l'axe principal en vertical */
+}
+
+<nav class="menu">
+
+<head>
+<link rel="stylesheet" href="style.css">
+ <title>Détails du Projet</title>
+header {
+  display: flex;
+  justify-content: space-between; /* pousse les éléments aux extrémités */
+  align-items: center; /* centre verticalement les éléments */
+  padding: 1rem 2rem;
+  background-color: white;
+}
+
+</head>
+
+<body>
+.container {
+    display: flex;
+    justify-content: center; /* Gère l'alignement sur l'axe principal (horizontal par défaut) */
+    align-items: center;    /* Gère l'alignement sur l'axe secondaire (vertical par défaut) */
+}
+.column {
+    flex-direction: column; /* Change l'axe principal en vertical */
+}
+
+      max-width: 960px;
+      max-width: 0 auto;
+      style="background-color:#f8f9fa">
+      style="color#333"
+      margin: 0;
+      p {
+    color: blue;
+}
+</body>
+
+</nav>
