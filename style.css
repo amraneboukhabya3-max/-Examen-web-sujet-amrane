@@ -7,8 +7,8 @@
  <title>Détails du Projet</title>
 header {
   display: flex;
-  justify-content: space-between; /* pousse les éléments aux extrémités */
-  align-items: center; /* centre verticalement les éléments */
+  justify-content: space-between; 
+  align-items: center; 
   padding: 1rem 2rem;
   background-color: white;
 }
@@ -19,20 +19,16 @@ header {
 .button-primary { background-color: blue; }
 .container {
     display: flex;
-    justify-content: center; /* Gère l'alignement sur l'axe principal (horizontal par défaut) */
-    align-items: center;    /* Gère l'alignement sur l'axe secondaire (vertical par défaut) */
+    justify-content: center; 
+    align-items: center;    
 }
 .column {
-    flex-direction: column; /* Change l'axe principal en vertical */
+    flex-direction: column; 
 }
 
-      max-width: 960px;
-      max-width: 0 auto;
-      style="background-color:blank">
-      style="color#333"
-      margin: 0;
+     
       h1 {
-    color: blue;
+    color: rgb(101, 101, 245);
 }
 </body>
 
