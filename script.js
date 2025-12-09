@@ -2,17 +2,17 @@ console.log("Le script est chargé !");
 
 /* ... vos styles existants ... */
 
-body.dark-mode {
-  background-color: #2c3e50;
+body.dark-mode 
+  background-color #2c3e50;
   color: #ecf0f1;
-}
+
 
 body.dark-mode .container {
   background-color: #34495e;
   /* Ajoutez d'autres styles pour le dark mode si nécessaire */
 }
 
-body.dark-mode a {
+body.dark-mode h1 {
   color: #3498db;
 }
 // --- LOGIQUE DU DARK MODE ---
@@ -29,3 +29,4 @@ if (themeButton) {
   });
 }
 document.body.classList.toggle('dark-mode');
+
