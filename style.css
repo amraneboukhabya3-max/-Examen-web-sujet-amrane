@@ -1,4 +1,4 @@
-<body>
+
 
  body.dark-mode { background-color: #333; color: white; }
 
@@ -20,7 +20,7 @@ body.dark-mode a {
     justify-content: center; /* Gère l'alignement sur l'axe principal (horizontal par défaut) */
     align-items: center;    /* Gère l'alignement sur l'axe secondaire (vertical par défaut) */
 }
-</body>
+
   <element class="container">
 
 .container {
@@ -36,12 +36,12 @@ header {
     padding: 1rem 2rem;
     background-color: rgb(255, 0, 0);
 }
-</style>  
-  <body>
+ 
+  
     <script src="script.js">
 
-    </script>
-    <style>
+    
+   
     body {background-color: rgb(0, 0, 0);}
     h1 {color: rgb(255, 255, 255);}
     h2 {color: white;}
@@ -51,5 +51,7 @@ header {
     h3 {font-family: 'Arial', sans-serif;}
      h1 {font-size: 50px;}
      background-color: black;
-    </style>
-</style>
+    
+    color: white;
+    }
+  
